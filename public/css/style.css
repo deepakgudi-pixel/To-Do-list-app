@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito&display=swap');
+
+html,body{
+background: -webkit-linear-gradient(65deg, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(65deg, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height: 1000px;
+font-family: 'Nunito', sans-serif;
+width: 100%;
+margin: 0px;
+overflow-x: hidden;
+text-align: center;
+}
+
+*::-webkit-scrollbar{
+    width: .25rem;
+}
+
+*::-webkit-scrollbar-track{
+    background-color:#C06C84 ;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #655B7B;
+}
+
+h1{
+    padding: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(65deg, #C06C84, #6C5B7B, #355C7D);
+    color: #fff;
+}
+
+
+.box {
+    max-width: 400px;
+    background-color: #fff;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  #heading {
+    text-align: center;
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+  }
+  
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #BE6C84;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  form {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #BE6C84;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #BE6C84;
+  }
+  
+  ::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+  
+  footer {
+    color: white;
+   
+    text-align: center;
+  }
+  
+  @media (max-width:450px){
+
+    .box{
+        max-width: 300px;
+    }
+
+    input[type="text"] {
+        width: 100% ;
+      }
+
+      button{
+       min-height: 30px;
+       width: 30px;
+       border-radius: 50%;
+       margin-left: 6px;
+       margin-right: 6px;
+       padding-bottom: 3px;
+       
+      }
+
+  }
+
